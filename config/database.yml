@@ -26,7 +26,7 @@ test:
 
 production:
   adapter: mysql2
-  host: 127.0.0.1
+  host: localhost
   database: apieceFrDev_production
   username: root
   password: <%= ENV.fetch("DATABASE_PASSWORD"){ "" } %>
